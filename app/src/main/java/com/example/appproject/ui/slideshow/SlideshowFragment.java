@@ -1,4 +1,4 @@
-package com.example.appproject.ui.Trending;
+package com.example.appproject.ui.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,14 +12,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.appproject.databinding.FragmentSlideshowBinding;
 
-public class TrendingshowFragment extends Fragment {
+public class SlideshowFragment extends Fragment {
 
     private FragmentSlideshowBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        TrendinghowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(TrendinghowViewModel.class);
+        SlideshowViewModel slideshowViewModel =
+                new ViewModelProvider(this).get(SlideshowViewModel.class);
 
         binding = FragmentSlideshowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();

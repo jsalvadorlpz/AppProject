@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void login(View view){
         Intent login = new Intent(this,RegistrarseActivity.class);
-        Intent principal = new Intent(this,MenuPrincipal.class);
+        Intent principal = new Intent(this,MenuPrincipalActivity.class);
         String name = user.getText().toString();
         String contra = password.getText().toString();
         if(!name.isEmpty() && !contra.isEmpty()){

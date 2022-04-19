@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.appproject.databinding.ActivityMenuPrincipalBinding;
 
-public class MenuPrincipal extends AppCompatActivity {
+public class MenuPrincipalActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMenuPrincipalBinding binding;
