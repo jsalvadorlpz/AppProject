@@ -1,4 +1,4 @@
-package com.example.appproject.ui.home;
+package com.example.appproject.ui.Movies;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,14 +12,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.appproject.databinding.FragmentHomeBinding;
 
-public class HomeFragment extends Fragment {
+public class MoviesFragment extends Fragment {
 
     private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        MoviesViewModel homeViewModel =
+                new ViewModelProvider(this).get(MoviesViewModel.class);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();

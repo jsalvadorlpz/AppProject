@@ -1,4 +1,4 @@
-package com.example.appproject.ui.gallery;
+package com.example.appproject.ui.Series;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
