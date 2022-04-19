@@ -23,10 +23,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void login(View view){
         Intent login = new Intent(this,RegistrarseActivity.class);
+        Intent principal = new Intent(this,PrincipalActivity.class);
         String name = user.getText().toString();
         String contra = password.getText().toString();
         if(!name.isEmpty() && !contra.isEmpty()){
-            startActivity(login);
+            startActivity(principal);
         }else if(name.isEmpty() && !contra.isEmpty()){
             Toast.makeText(this,"Falta Nombre",Toast.LENGTH_SHORT).show();
         }else if(!name.isEmpty() && contra.isEmpty()){
