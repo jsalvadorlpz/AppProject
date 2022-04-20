@@ -17,6 +17,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
+
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -43,7 +44,7 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="@color/black" >
+            android:textColorHint="@color/black">
 
         </EditText>
 
@@ -51,7 +52,6 @@
             android:id="@+id/contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="15dp"
@@ -59,11 +59,12 @@
             android:backgroundTint="@color/white"
             android:elevation="5dp"
             android:hint="Contraseña"
+            android:inputType="textPassword"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="@color/black" >
+            android:textColorHint="@color/black">
 
         </EditText>
 
@@ -81,11 +82,13 @@
         </Button>
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/notmember"
+            android:layout_width="157dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
+            android:clickable="true"
             android:elevation="5dp"
             android:gravity="center"
             android:text="Not a member?"
